@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav__logo{
+    height: 35px;
+}
+.nav__center{
+   
+    flex: 1;
+}
+.nav__right{
+    display: flex;
+    align-items: center;
+}
+.nav__icon{
+    margin: 1rem;
+}
+
+/*  */
+@media only screen and (max-width: 775px) {
+    .nav__center{
+       display: none;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+  }
