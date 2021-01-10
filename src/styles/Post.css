@@ -1,0 +1,43 @@
+.post {
+ 
+  width: 350px;
+  border-radius: 5px;
+  margin: 1rem;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+   /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+
+}
+.post__infoContainer {
+  margin: 1rem;
+  display: flex;
+  opacity: 1;
+  cursor: pointer;
+}
+.post__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.post__picture {
+  height: 45px;
+  border-radius: 25px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.post__title {
+  margin: 0;
+}
+
+/* .post__infoContainer:hover{
+opacity: 1;
+transition: ease-in-out 354ms;
+} */
